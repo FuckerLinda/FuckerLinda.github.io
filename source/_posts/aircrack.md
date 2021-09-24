@@ -3,7 +3,7 @@ title: aircrack-ng
 toc: true
 date: 2021-09-24 19:29:18
 tags:
-categories:黑
+categories: 黑
 
 ---
 
