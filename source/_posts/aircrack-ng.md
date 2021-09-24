@@ -4,6 +4,7 @@ toc: true
 date: 2021-09-24 19:29:18
 tags:
 categories:黑
+
 ---
 
 ```bash
@@ -27,4 +28,5 @@ aircrack-ng -w dic.txt -M 100 -f 80 -1 -a 2 -b **:**:**:**:**:** /tmp/airportSni
 ## 参考资料
 
 > - [**Mac上使用aircrack-ng破解Wi-Fi密码**](https://uare.github.io/2016/cracking-wifi-by-aircrack-ng-on-mac)
+
 
