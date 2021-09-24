@@ -8,15 +8,15 @@ categories:
 
 
 
-hexo博客：
+博客的git push：
 
-1. hexo g
-2. hexo d
-3. hexo new blog增加文章
+1. hexo new blog增加文章
+2. hexo g
+3. hexo d
 4. git add --all,git commit -m '注释'
 5. git push
 
-
+[23与4可调换]
 
 ## 参考资料
 > - []()
