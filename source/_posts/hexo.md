@@ -10,10 +10,11 @@ categories:
 
 hexo博客：
 
-1. hexo d
-2. hexo new blog增加文章
-3. git add --all,git commit -m '注释'
-4. git push
+1. hexo g
+2. hexo d
+3. hexo new blog增加文章
+4. git add --all,git commit -m '注释'
+5. git push
 
 
 
