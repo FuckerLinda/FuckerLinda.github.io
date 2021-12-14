@@ -191,7 +191,7 @@
                         </a>
                          <ul class="unstyled" id="tree" >  <li class="file"><a href="/2021/09/23/kali%E6%97%A0%E7%BA%BF%E7%BD%91%E5%8D%A1%E7%A0%B4%E8%A7%A3wifi%E5%AF%86%E7%A0%81-md/">kali无线网卡破解wifi密码.md</a></li>  <li class="file"><a href="/2021/09/24/aircrack/">aircrack-ng</a></li>  </ul> 
                     </li> 
-                     <li class="file"><a href="/2021/09/24/hello-world/">Hello World</a></li>  <li class="file"><a href="/2021/09/24/hexo/">hexo</a></li>  <li class="file"><a href="/2021/09/24/%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%89%E5%85%B3maven%E7%9A%84%E9%97%AE%E9%A2%98/">遇到的一些有关maven的问题</a></li>  <li class="file"><a href="/2021/09/26/%E5%AF%B6%E7%89%A9/">寶物</a></li>  <li class="file"><a href="/2021/12/13/chsh%E4%BF%AE%E6%94%B9root%E5%AF%86%E7%A0%81/">chsh修改root密码</a></li>  </ul> 
+                     <li class="file"><a href="/2021/09/24/hello-world/">Hello World</a></li>  <li class="file"><a href="/2021/09/24/hexo/">hexo</a></li>  <li class="file"><a href="/2021/09/24/%E9%81%87%E5%88%B0%E7%9A%84%E4%B8%80%E4%BA%9B%E6%9C%89%E5%85%B3maven%E7%9A%84%E9%97%AE%E9%A2%98/">遇到的一些有关maven的问题</a></li>  <li class="file"><a href="/2021/09/26/%E5%AF%B6%E7%89%A9/">寶物</a></li>  <li class="file"><a href="/2021/12/13/chsh%E4%BF%AE%E6%94%B9root%E5%AF%86%E7%A0%81/">chsh修改root密码</a></li>  <li class="file"><a href="/2021/12/14/%E5%B0%86webm%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-mp4%E6%A0%BC%E5%BC%8F/">将webm文件转换为.mp4格式</a></li>  </ul> 
     </div>
     <script>
         $(document).ready(function() {
@@ -263,6 +263,100 @@
 </aside>
             
             <section id="main">
+        <article id="post-将webm文件转换为-mp4格式" class="article article-type-post" itemscope itemprop="blogPost">
+    <div class="article-inner">
+        
+        
+            <header class="article-header">
+                
+                    <div class="article-meta">
+                        
+                        
+                        
+    <div class="article-date">
+        <i class="fa fa-calendar"></i>
+        <a href="/2021/12/14/%E5%B0%86webm%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-mp4%E6%A0%BC%E5%BC%8F/">
+            <time datetime="2021-12-14T13:59:57.000Z" itemprop="datePublished">2021-12-14</time>
+        </a>
+    </div>
+
+
+                        
+                            <i class="fa fa-bar-chart"></i>
+                            <span id="busuanzi_container_site_pv"><span id="busuanzi_value_page_pv"></span></span>    
+                        
+                        
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/zthxxx/Wiki-site/raw/writing/source/_posts/将webm文件转换为-mp4格式.md'> Source </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/zthxxx/Wiki-site/edit/writing/source/_posts/将webm文件转换为-mp4格式.md'> Edit </a>
+                            </div>
+                            <div class="article-meta-button">
+                                <a target="_blank" rel="noopener" href='https://github.com/zthxxx/Wiki-site/commits/writing/source/_posts/将webm文件转换为-mp4格式.md'> History </a>
+                            </div>
+                        
+                    </div>
+                
+                
+    
+        <h1 itemprop="name">
+            <a class="article-title" href="/2021/12/14/%E5%B0%86webm%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-mp4%E6%A0%BC%E5%BC%8F/">将webm文件转换为.mp4格式</a>
+        </h1>
+    
+
+            </header>
+        
+        
+        <div class="article-entry" itemprop="articleBody">
+        
+        
+            
+                
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                    
+                    
+                
+                
+                    
+                    <p><p><code>brew install ffmpeg</code></p>
+<p><code>ffmpeg -i input.webm -c:v libx264 -c:a aac -strict experimental -b:a 192k output.mp4</code></p>
+<p>（该参数对音频使用192 kBit / s恒定比特率）</p>
+<p>对于音频，静态构建不支持<code>libfdk-aa</code>。如果你支持它，则应改用：<code>ffmpeg -i input.webm -c:v libx264 -c:a libfdk_aac output.mp4</code></p>
+<h2 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h2><blockquote>
+<p>
+                
+            
+        
+        
+            </div>   
+            <div class="article-more-link">
+                <a href="/2021/12/14/%E5%B0%86webm%E6%96%87%E4%BB%B6%E8%BD%AC%E6%8D%A2%E4%B8%BA-mp4%E6%A0%BC%E5%BC%8F/#more">Read More</a>
+            </div>
+        
+        <footer class="article-footer">
+        </footer>
+    </div>
+</article>
+
+
+
+
+
+
+    
         <article id="post-chsh修改root密码" class="article article-type-post" itemscope itemprop="blogPost">
     <div class="article-inner">
         
