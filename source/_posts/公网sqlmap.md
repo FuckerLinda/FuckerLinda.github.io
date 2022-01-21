@@ -3,7 +3,7 @@ title: 公网sqlmap
 toc: true
 date: 2022-01-21 14:09:53
 tags:
-categories:
+categories: 黑
 ---
 
 ### Linux-debian
